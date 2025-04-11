@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.3</version>
+        <version>3.4.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
@@ -15,17 +15,17 @@
 
     <properties>
         <java.version>17</java.version>
-        <spring-ai.version>1.0.0-M6</spring-ai.version>
+        <spring-ai.version>1.0.0-M7</spring-ai.version>
     </properties>
 
     <dependencies>
         <!-- Switch to your favorite AI provider, such as: -->
-        <!-- * spring-ai-ollama-spring-boot-starter -->
-        <!-- * spring-ai-openai-spring-boot-starter -->
-        <!-- * spring-ai-mistral-ai-spring-boot-starter -->
+        <!-- * spring-ai-starter-model-ollama -->
+        <!-- * spring-ai-starter-model-openai -->
+        <!-- * spring-ai-starter-model-mistral-ai -->
         <dependency>
             <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-ollama-spring-boot-starter</artifactId>
+            <artifactId>spring-ai-starter-model-ollama</artifactId>
         </dependency>
 
         <dependency>
